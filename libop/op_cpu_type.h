@@ -79,6 +79,7 @@ typedef enum {
 	CPU_PPC64_IBM_COMPAT_V1, /**< IBM PPC64 processor compat mode version 1 */
    	CPU_CORE_I7, /* Intel Core i7, Nehalem */
    	CPU_ATOM, /* First generation Intel Atom */
+        CPU_ARM_V7_CA9,  /* ARM Cortex-A9 */
 	MAX_CPU_TYPE
 } op_cpu;
 
